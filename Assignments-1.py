@@ -18,4 +18,10 @@ else:
     print("The number is odd.")
 
 #Question 3
-user = 
+user = input("Enter username: ")
+passw = input("Enter password: ")
+
+if user == "admin" and passw == "admin":
+    print("Access granted.")
+else:
+    print("Access denied.")
